@@ -1,0 +1,29 @@
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch.com rewards page
+  url: https://fetch.com/rewards
+- headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch.com index page
+  url: https://fetch.com/
+  body: '{"foo": "bar"}'
+- headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: PUT
+  name: fetch.com careers page
+  body: '{"foo": "bar"}'
+  url: https://fetch.com/careers
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetchrewards.com index page
+  url: https://fetchrewards.com/
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: DELETE
+  name: fetchrewards.com brand page
+  url: https://fetchrewards.com/brands
